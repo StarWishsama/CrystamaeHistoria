@@ -29,7 +29,7 @@ Boomer_1 做了两个非常好的视频让你了解魔法水晶编年史的基�
 ## 现实祭坛
 
 现实祭坛能够从已被获取故事的物品中缓慢获取魔法能量. 这些能量将会在祭坛附近缓慢结晶.
-当完全结晶后, 你可以获取魔法的物理形态————魔法水晶.
+当完全结晶后, 你可以获取魔法的物理形态——魔法水晶.
 能获取的水晶类型取决于物品的故事类型.
 
 <p align="center"><img width="900" src="https://github.com/StarWishsama/CrystamaeHistoria/blob/master/images/wiki/wiki_realisation_altar.gif?raw=true"></p>
@@ -48,31 +48,25 @@ Boomer_1 做了两个非常好的视频让你了解魔法水晶编年史的基�
 
 <p align="center"><img width="900" src="https://github.com/StarWishsama/CrystamaeHistoria/blob/master/images/wiki/wiki_liquefaction_basin.gif?raw=true"></p>
 
-## Magical Plates
+## 魔法板
 
-Using a steel plate as a catalyst, you can create a magical imbued plate. The plate will absorb the magic given to it
-and, based on the top 3 magical values, will produce a plate that is able to channel a magical spell. 80 possible plate
-combinations are available meaning 80 possible magical spells. Plates are attached to Staves using the Stave
-Configurator.
+魔法板可以用作催化剂制作浸魔板. 魔法板会吸收魔力合成魔法, 魔法类型取决于投入的三个魔咒. 法术组合超过 80 种. 你可以使用法杖配置器绑定法杖.
 
-Plates hold the potential for a magical spell but will need refilling with Crystamae as the magical energy is used.
-There is no limit to the stored Crystamae. You can recharge a plate by dropping it into a basin.
+魔法板自带一个可用法术, 在魔力用完之后, 你就要使用制造法术时所使用的魔法水晶为法术板充能.
+魔法板储存的魔力值没有上限, 你可以将一个魔法板丢入池中重新充能.
 
 <p align="center"><img width="900" src="https://github.com/StarWishsama/CrystamaeHistoria/blob/master/images/wiki/wiki_plate_filling.gif?raw=true"></p>
 
-## Stave Configurator
+## 法杖配置器
 
-A Stave is, surprisingly, very easy to craft and source. The downside being is that the Stave does nothing by itself.
-Just like some sorcerers use runes to imbue a staff with magic, the Stave requires a filled Magical Plate to channel
-magic. The configurator allows you to add/remove 4 plates to the Stave at any given time. Each plate binds it's spell to
-a specific player action (Left, Right, Shift-Left and Shift-Right click). Plates can be added and removed freely to
-customise your load-out whenever.
+法杖很容易制作, 但法杖本身没有任何作用.
+就像巫师会使用符文给法杖注入魔法一样, 法杖需要法术板才能释放魔法. 配置器让你可以随时随地增减最多四个法术. 每个魔法板都有指定动作 (左键点击, 右键点击, Shift + 左键和 Shift + 右键). 你可以自由更换法杖上绑定的法术.
 
 <p align="center"><img width="900" src="https://github.com/StarWishsama/CrystamaeHistoria/blob/master/images/wiki/wiki_stave_configurator.gif?raw=true"></p>
 
-## Spells
+## 法术
 
-The end result of all your hard work? Spells! 
+你的努力得到了什么? 法术!
 
 <p align="center"><img width="900" src="https://github.com/StarWishsama/CrystamaeHistoria/blob/master/images/wiki/wiki_spell_chaos.gif?raw=true"></p>
 
@@ -84,8 +78,4 @@ The end result of all your hard work? Spells!
 
 ## 谢谢你看到这里!
 
-如往常一样, 非常感谢那些测试了 编年史 的各位As usual, a big thanks to those who tested Crystamae to get it to the nice state it is in.
-
-A big thanks to the owners of **mct.tantrum.org** who have tested nearly everything I have made and really given me direction and drive to make these things.
-
-Another big shoutout to **GentlemanCheesy** of **mc.talosmp.net** for being my first (and as of writing this, only!) sponsor. A few coffee's a month to make me feel better about making these addons <3
+如往常一样, 非常感谢那些测试了 编年史 的各位, 没有你们编年史就不能达到目前的良好状态.
