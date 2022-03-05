@@ -52,7 +52,7 @@ public class CrystamaeHistoria extends AbstractAddon {
     private SupportedPluginManager supportedPluginManager;
 
     public CrystamaeHistoria() {
-        super("Sefiraat", "CrystamaeHistoria", "master", "auto-update");
+        super("StarWishsama", "CrystamaeHistoria", "master", "auto-update");
     }
 
     public static CrystamaeHistoria getInstance() {
@@ -141,6 +141,7 @@ public class CrystamaeHistoria extends AbstractAddon {
 
         getLogger().info("########################################");
         getLogger().info("    Crystamae Historia - By Sefiraat    ");
+        getLogger().info("           StarWishsama 汉化             ");
         getLogger().info("########################################");
 
         this.configManager = new ConfigManager();
