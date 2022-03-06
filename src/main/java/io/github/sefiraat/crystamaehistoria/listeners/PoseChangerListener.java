@@ -131,7 +131,7 @@ public class PoseChangerListener implements Listener {
             final PoseType poseType = PoseType.valueOf(PersistentDataAPI.getString(itemMeta, poseKey, "HEAD"));
             final PoseType nextType = poseType.getNext();
             final String message = MessageFormat.format(
-                "{0}Pose type: {1}{2}",
+                "{0}姿势类型: {1}{2}",
                 ThemeType.ERROR.getColor(),
                 ThemeType.CLICK_INFO.getColor(),
                 nextType
@@ -146,7 +146,7 @@ public class PoseChangerListener implements Listener {
             final ChangeType changeType = ChangeType.valueOf(PersistentDataAPI.getString(itemMeta, changeKey, "RESET"));
             final ChangeType nextType = changeType.getNext();
             final String message = MessageFormat.format(
-                "{0}Change type: {1}{2}",
+                "{0}修改为类型: {1}{2}",
                 ThemeType.ERROR.getColor(),
                 ThemeType.CLICK_INFO.getColor(),
                 nextType
@@ -198,22 +198,22 @@ public class PoseChangerListener implements Listener {
                 if (isImbued) {
                     armorStand.setVisible(!armorStand.isVisible());
                 } else {
-                    player.sendMessage(ThemeType.WARNING.getColor() + "This can only be done to an Imbued Armorstand");
+                    player.sendMessage(ThemeType.WARNING.getColor() + "只能在注入魔法的盔甲架上使用!");
                 }
                 return null;
             case STAND_SIZE:
                 if (isImbued) {
                     armorStand.setSmall(!armorStand.isSmall());
                 } else {
-                    player.sendMessage(ThemeType.WARNING.getColor() + "This can only be done to an Imbued Armorstand");
+                    player.sendMessage(ThemeType.WARNING.getColor() + "只能在注入魔法的盔甲架上使用!");
                 }
                 return null;
             case STAND_GRAVITY:
                 if (isImbued) {
                     armorStand.setGravity(!armorStand.hasGravity());
-                    player.sendActionBar(Component.text("Gravity: " + armorStand.hasGravity()));
+                    player.sendActionBar(Component.text("重力: " + (armorStand.hasGravity() ? "有" : "无")));
                 } else {
-                    player.sendMessage(ThemeType.WARNING.getColor() + "This can only be done to an Imbued Armorstand");
+                    player.sendMessage(ThemeType.WARNING.getColor() + "只能在注入魔法的盔甲架上使用!");
                 }
                 return null;
             default:
