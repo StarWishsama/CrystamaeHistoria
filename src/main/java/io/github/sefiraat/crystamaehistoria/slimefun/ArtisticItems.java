@@ -917,7 +917,7 @@ public class ArtisticItems {
                 ThemeType.TOOL,
                 "神秘画刷",
                 "可以给染色方块和实体染色.",
-                "可以染上所有种类的颜色, 永不用尽.",
+                "可以染上所有种类的颜色, 无穷无尽.",
                 "",
                 MessageFormat.format("{0}左键: {1}切换颜色", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor())
             ),
